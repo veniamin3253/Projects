@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+     <head>
+     <title>GeoSpatial Data</title>
+     <meta charset="utf-8">
+     <link rel="icon" href="images/favicon.ico">
+     <link rel="shortcut icon" href="images/favicon.ico" />
+     <link rel="stylesheet" href="css/style.css">
+     <link rel="stylesheet" href="css/camera.css">
+     <script src="js/jquery.js"></script>
+     <script src="js/jquery-migrate-1.1.1.js"></script>
+     <script src="js/superfish.js"></script>
+     <script src="js/jquery.equalheights.js"></script>
+     <script src="js/jquery.easing.1.3.js"></script>
+     <script src="js/camera.js"></script>
+     <script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
+     <script>MathJax.Hub.Config({ tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}})</script>
+
+    <script>
+      $(document).ready(function(){
+          jQuery('#camera_wrap').camera({
+            loader: false,
+            pagination: false ,
+            thumbnails: false,
+            height: '100%',
+            minHeight: '100',
+            caption: false,
+            navigation: true,
+            fx: 'mosaic'
+          });
+    });
+
+     </script>
+     <!--[if lt IE 8]>
+       <div style=' clear: both; text-align:center; position: relative;'>
+         <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+           <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+         </a>
+      </div>
+    <![endif]-->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <link rel="stylesheet" media="screen" href="css/ie.css">
+
+    <![endif]-->
+     </head>
+     <body  class="">
+<!--==============================header=================================-->
+ <header> 
+  <div class="container_12">
+   <div class="grid_12"> 
+    <h1><a href="index.html"><img src="images/logo2.png" alt="Boo House"></a> </h1>
+    <div class="menu_block">
+
+     <nav  class="" >
+      <ul class="sf-menu">
+         <li><a href="index.html">Home</a></li>
+         <li class="current"><a href="index-2.html">Portfolio</a></li>
+         <li><a href="index-1.html">Resume</a></li>
+         <li><a href="index-4.html">Contacts</a></li>
+       </ul>
+    </nav>
+    
+ <div class="clear"></div>
+</div>
+<div class="clear"></div>
+          </div>
+      </div>
+</header>
+
+<!--==============================Content=================================-->
+
+<div class="content"><div class="ic"></div>
+  <div class="container_12">
+    <div class="grid_12">
+      <h3 class="pb1"><span>Multi-scale Analysis of urban spatial structures</span></h3>
+      <div class="extra_wrapper">
+      
+      <div class="map">
+          <figure class="">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d212707.11818629317!2d-102.02852842460035!3d33.59106447582685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86fe12add37ddd39%3A0x1af0042922e84287!2sLubbock%2C%20TX!5e0!3m2!1sen!2sus!4v1626548315940!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        </figure>
+                        
+          </div> 
+	     
+<p style = "color:black"> Urbanization has been the dominant demographic trend in the entire world
+during the last half century. Rural to urban migration, international migration, and
+the re-classification or expansion of existing city boundaries have been among the
+major reasons for increasing urban population. The essentially fast growth of cities
+in the last decades urgently calls for a profound insight into the common principles
+stirring the structure of urban developments all over the world. </p>
+
+<p style = "color:black">A belief in the influence of the built environment on humans was common in
+architectural and urban thinking for centuries. Cities generate more
+interactions with more people than rural areas because they are central places of
+trade that benefit those who live there. People moved to cities because they
+intuitively perceived the advantages of urban life. City residence converted a
+compact space pattern into a pattern of relationships by constraining mutual
+proximity between people. Spatial organization of a place has an extremely
+important effect on the way people moving through spaces and meeting other people
+by chance. Compact neighborhoods can foster casual social interactions among
+neighbors, while creating barriers to interaction with people outside a neighborhood.
+Spatial configuration promotes peoples encounters, as well as making it possible for
+them to avoid each other, shaping social patterns. </p>
+
+<p style = "color:black">In our work, we propose feasible statistical algorithms for the automated
+assessment of isolation and integration of urban locations and neighborhoods by
+using maps acquired from the OpenStreeMap service, a collaborative project to
+create a free editable map of the world. Map data in the project is collected from
+scratch by volunteers performing systematic ground surveys using tools such as a
+handheld GPS unit, a notebook, digital camera, or a voice recorder. The data is
+then entered into the OpenStreetMap database being freely available for
+downloading.</p>
+<p style = "color:black"> In our approach, isolation of a place in a complex fabric of a city is quantified
+statistically by the relative first-passage time of isotropic random walks (with no
+self-intersections) on the city street map measured in the decibel scale. The
+proposed isolation index helps to detect sprawling, low-density, auto-dependent
+urban developments in American cities.</p>
+
+<p style = "color:black">Sociologists think that isolation in sprawling metropolitan areas worsens an area’s
+economic prospects and fuel poverty and crime by reducing opportunities for
+commerce and engendering a sense of isolation in inhabitants. Suburban
+sprawl also hurts social mobility by lowering a poor child’s chances of moving up the
+economic ladder as an adult. Although structural isolation defined above can be
+combated by constructing the new city belt roads that would encompass the
+isolated regions and cut-off neighborhoods, building new roads just makes the
+problem worse, as increasing road capacity would lead to more traffic and more
+sprawl in the future.</p>
+
+
+<p style = "color:black">The integration index of a place is introduced in our work as a relative share of
+infinite paths (assuming all of them are equally probable) hosted by the place in the
+city street map measured also in the decibel scale. Places hosting the lion shares of
+infinite paths (existing in the connected graphs even if the graphs are small) play
+the role of hubs featuring the global mobility patterns in the structure. By comparing the
+integration and isolation patterns, we may see that
+integration and isolation defined above are not always opposites. Some secluded
+places in the city can be characterized as being in integrated isolation, and this
+wording is more than an oxymoron, as the wealthiest people live there.</p>
+
+<p style = "color:black"> In traditional urban researches, the dynamics of an urban pattern come from the
+landmasses, the physical aggregates of buildings delivering place for people and
+their activities. The relationships between certain components of the urban
+texture are often measured along streets and routes considered as edges of a planar
+graph, while the traffic end points and street junctions are treated as nodes. Such a
+primary graph representation of urban networks is grounded on relations between
+junctions through the segments of streets. The usual city map based on Euclidean
+geometry can be considered as an example of primary city graphs. </p>
+
+<p style = "color:black">In space syntax theory, built environments are treated as systems of spaces
+of vision subjected to a configuration analysis. Being irrelevant to the physical
+distances, spatial graphs representing the urban environments are removed from the
+physical space. It has been demonstrated in multiple experiments that spatial
+perception shapes people understanding of how a place is organized and eventually
+determines the pattern of local movement. The aim of the space syntax study is
+to estimate the relative proximity between different locations and to associate these
+distances to the densities of human activity along the links connecting them. </p>
+
+<p style = "color:black">In our work, we use the graph representation of the transportation system of Lubbock acquired from OpenStreetMap file located
+<a href="https://dataverse.harvard.edu/dataverse/osmnx-street-networks">here </a>.</p>
+	      
+<p style = "color:black"> Railroad paved way for Lubbock to become a hub. After the first train
+steamed into town on Sept. 25, 1909, Lubbock had managed to quadruple its
+population to 4,000 in a 10-year period. Once town’s dusty roads had been covered
+with bricks, Lubbock had been selected as the site of the new Texas Technological
+College, and the county’s population had ballooned to almost 40,000 in 1930.
+Lubbock had accomplished the journey from town to city when Loop 289 was
+completed by the mid-1960s (Fig. 1).</p>
+<figure>
+  <img src="images/RunningAway06.jpg" alt="Lubbock" style="width:60%">
+  <figcaption style = "color:blue">Fig.1 - The city of Lubbock is running away from the lasso of Loop 289 marking
+the old city boundaries.</figcaption>
+</figure>
+
+<p> </p>
+<p style = "color:black"> Although railway construction enhanced the city status in early days, its
+maintenance consumed large budgets, was complicated to organize, and had a
+considerable impact on the urban development of Lubbock. Railways barricade
+streets, cutting down the number of possible paths people can drive or walk, thus
+creating neighborhoods isolated from nearby areas. The large urban voids remained
+in north and east Lubbock cut off from other parts of the city by rails. Not
+surprising, the city fabric pushed away from the angle formed by the veering railway
+tracks and grew to the southwest anyhow, running away from the lasso of Loop 289
+marking the old city boundaries (Fig. 1). </p>
+<p style = "color:black"> The Texas Tech University is still anchored in the center and cannot follow the
+city running away. Situated on the boundary of the neighborhoods going downhill,
+the University mediates between the isolation and integration patterns in the city of
+Lubbock (Fig. 1).</p>
+
+<p style = "color:black"> Structural isolation is viewed as one of the top risk factors for area’s economic,
+social and environmental prospects. The notion of isolation
+acquires a statistical interpretation by means of random walks. <br>
+While the recurrence time of random walks to a node depends upon the
+degree of connectivity of the node, a local structural characteristic of the node in the
+graph, the first-passage time to the node is a global structural characteristic
+of the node quantifying its connectedness, since all possible paths to the node existing in the graph are taken into account by the first-passage time although some
+paths are rendered more probable than others. The relatively low recurrence
+times are typical for well connected nodes, disregarding their role for the entire
+graph structure. For example, a bridge connecting the city districts situated on the
+opposite banks of a river is vital for the entire urban transportation system despite
+its limited connectivity to the immediate city neighborhoods. The relatively low
+first-passage times indicate the high degree of importance of the nodes aggregating
+many a path for structural integrity of the entire graph even if their connectivity is
+low. Being a global characteristic of a node in the graph, the first-passage time
+assigns absolute accessibility scores to all nodes of the graph and can be
+considered as a natural statistical centrality measure of the node within the graph. The vertices of the urban street graph characterized by the shortest
+first-passage times are easy to reach by whatever origin-destination (Fig. 2).</p>
+
+<p style = "color:black"> We
+introduce the <b>isolation index</b> of a node in the city street map acquired from the OpenStreetMap service by 
+$$ISL_i = 10 \cdot \log_{10} \frac{\mathbb{F}_i(1)}{\min_{j \in V}\mathbb{F}_j(1)} \; (dB)$$
+in which \(\mathbb{F}_i (1) \) is the first- passage time to the node \(i \in V\) by isotropic random
+walks \(T(1)\). Isotropic random walks are insensitive to the structural peculiarities
+and boundaries of the graph, covering all nodes with respect to their immediate
+connectivity. The isolation index is calculated as relative measure of
+accessibility and measured in the decibel scale. The high values of the isolation
+index defined in are attributed to the places, which are difficult to access in comparison to those in a structural focus of a city. The spatial pattern of isolation
+in the city of Lubbock (red colored in Fig.2) illuminates the sprawling urban
+areas homing the low-density communities located out of the old city boundaries.
+The colored bar in Fig. 2 indicates the value of isolation index in the decibel scale.
+The axis labels are the geographic coordinates. </p>
+
+<figure>
+  <img src="images/Isolation_Idx_Lbb_dB.jpg" alt="Lubbock_isolation" style="width:60%">
+  <figcaption style = "color:blue">Fig.2 - Isolation index of nodes in the city graph of Lubbock, TX acquired from
+the OpenStreetMap service. The colored bar indicates the value of isolation index in
+the decibel scale – the isolated neighborhoods are red colored. The axis labels are the
+geographic coordinates.</figcaption>
+</figure>
+<p> </p>
+
+<p style = "color:black"> We define the integration index of a node in the graph based on its accessibility
+by the anisotropic random walks of infinitely long paths (ARW \(T(\infty)\)). These random walks are extremely sensitive
+to structural defects and graph boundaries. Our definition is based on the
+idea of that well integrated places should host the majority of infinitely long paths
+possible in the spatial graph, eventually determining feasible movement patterns in
+the city (see Fig.3). </p>
+
+<figure>
+  <img src="images/Integration_Idx_Lbb_dB.jpg" alt="Lubbock_isolation" style="width:60%">
+  <figcaption style = "color:blue">Fig.3 - Integration index of nodes in the city graph of Lubbock, TX acquired
+from the OpenStreetMap service. The colored bar indicates the value of integration
+index in the decibel scale – the integrated neighborhoods are red colored. The axis
+labels are the geographic coordinates.</figcaption>
+</figure>
+<p> </p>
+
+<p style = "color:black"> We introduce the <b>isolation index </b> of a node in the city street map acquired from
+the OpenStreetMap service by
+
+$$INT_i = 10 \cdot \log_{10} \frac{\min_{j \in V} \mathbb{F}_j(\infty)}{\mathbb{F}_i(\infty)}, \; (dB)$$
+
+in which \(\mathbb{F}_i(\infty) \) is the first- passage time to the node \( i \in V\) by ARW \(T(\infty) \). The
+walks \(T(\infty) \)) are statistically bounded to the nodes hosting the lion share of infinite
+paths and repelling from defects and boundaries in the graph. By definition, the
+index is somewhat opposite to the isolation index, but calculated with
+respect to anisotropic, direction sensitive walks \(T(\infty) \), not \(T(1) \). The index is
+measured in the decibel scale, so that places weakly integrated into the city fabric
+are characterized by large negative numbers. It is evident from Fig. 3 that
+sprawling areas (apart from the northeastern part of the city cut off the downtown
+by railways dramatically reducing the number of possible infinitely long paths) are
+able to statistically accumulate essentially long paths and shift the mobility
+patterns in the city of Lubbock from the downtown to the southwest periphery.</p>
+
+<p style = "color:black"> We have proposed the novel concepts and related computationally feasible statistical algorithms for the automated assessment of isolation and integration of
+the places in the urban street maps acquired directly from the OpenStreetMap
+service. We have introduced the isolation and integration indices of a place in the
+complex urban fabric based on the first-passage times of isotropic and anisotropic
+random walks defined on the spatial graph of the city. While the isolation index
+allows for detecting sprawling areas (Fig. 3), the integration index 
+reveals the areas hosting the essentially long paths in the city graph attributed to
+the major mobility patterns possible in the urban structure (Fig. 2). </p>
+
+<p style = "color:black"> Encompassing a big share of possible movements, urban sprawl pulls the highly
+integrated places in the city of Lubbock out of the downtown, fostering the process
+of urban decay in the north-eastern parts of the city and at the center. In Fig. 4, 5, 6,
+we have summarized the distributions of social and economic variables over the city of Lubbock, TX. Lack of structural integration in the north-eastern areas of the city
+(blue colored) reduce opportunities for commerce, fuel poverty and crime, foster
+disparity of land prices and social inequality, in the long run. The highest crime
+rates in the city of Lubbock are observed in the northeastern part of the city
+barricaded by railways, cutting down the number of paths people can drive or walk
+dramatically.</p>
+
+<figure>
+  <img src="images/Racial_comp_whites.jpg" alt="Lubbock_racial" style="width:60%">
+  <figcaption style = "color:blue">Fig.4 - The racial composition of neighborhoods in Lubbock accordingly the US
+Census Bureau. The area of white population concentration are dark colored.</figcaption>
+</figure>
+<p> </p>
+<figure>
+  <img src="images/unemployment.jpg" alt="Lubbock_unemployment" style="width:60%">
+  <figcaption style = "color:blue">Fig.5 - Unemployment Rate in Lubbock, TX in Oct. 2018 accordingly the US Bureau of Labor Statistics.</figcaption>
+</figure>
+<p> </p>
+<figure>
+  <img src="images/Crime_map02.jpg" alt="Lubbock_crime" style="width:60%">
+  <figcaption style = "color:blue">Fig.6 - Lubbock crime rates and statistics density heat map (downloaded on 6/29/2018) from
+the Turlia website. Trulia uses crime reports to provide valuable information on the relative safety of homes in the US</figcaption>
+</figure>
+<p> </p>
+
+<p style = "color:black"> Interestingly, the isolation pattern in the city of Lubbock assessed by means of
+the isolation index and shown in Fig. 2 does not visually match the
+distributions of the social and economic variables represented on Fig. 4.
+Furthermore, by comparing the integration and isolation patterns shown in Fig. 2 and Fig. 3, we see that statistically defined integration and isolation are not always opposite, since some secluded places in sprawling areas in the wealthy south-western part of Lubbock can be isolated although integrated.</p>
+<p style = "color:black"> The further development of the city road system (e.g., the new Loop 88 that will
+lasso the running away city of Lubbock in Wolfforth by 2030) would alleviate
+isolation by improving accessibility to the south-western sprawls, yet
+encouraging further sprawl and more road travel and worsening the social and
+economic conditions in the downtown and on the north-western periphery. The city of Lubbock will keep running southwest.</p>
+
+
+
+    </div> <!--//container -->
+    		
+           
+    		</div>
+		</div>
+    </div>
+</section>
+      
+      </div>
+    </div>
+    
+</div>
+
+<!--==============================footer=================================-->
+
+<footer>    
+  <div class="container_12">
+    <div class="grid_12">
+    
+      <div class="copy">
+      
+      </div>
+    </div>
+  </div>
+</footer>
+<div class="container">
+<table align="center" border="0" cellpadding="0" cellspacing="0" style="height:75px; width:560px">
+	<tbody>
+		<tr>
+			<td style="height:75px; text-align:center; vertical-align:middle; width:560px">
+			
+			</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</body>
+</html>
