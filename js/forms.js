@@ -11,7 +11,7 @@
 					successCl:'success',
 					successShow:'4000',
 					mailHandlerURL:'bat/MailHandler.php',
-					ownerEmail:'support@template-help.com',
+					ownerEmail:'veniamin3253@gmail.com.com',
 					stripHTML:true,
 					smtpMailServer:'localhost',
 					targets:'input,textarea',
