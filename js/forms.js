@@ -181,7 +181,7 @@
 	}
 })(jQuery)
 $(window).load(function(){
-	$('#form').forms({
-		ownerEmail:'#'
+	$('form').forms({
+		ownerEmail:'veniamin3253@gmail.com'
 	})
 })
